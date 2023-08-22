@@ -1,0 +1,64 @@
+.hidden{
+    display: invisible !important;
+}
+.login-button {
+    display: flex;
+    justify-content: flex-end;
+    margin:20px;
+    cursor:pointer;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menulist {
+    display: flex;
+    list-style: none;
+}
+
+.menulist li {
+    padding:10px;
+}
+
+.searchBar {
+    position: absolute;
+    right: 20px;
+    border-bottom: 1px solid #444;
+    padding: 5px;
+
+}
+.searchBar input {
+    border: none;
+    margin-left:3px;
+}
+
+.card {
+    border: none !important;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: ease-in-out .3s;    
+    z-index:1;
+}
+.card > img {
+    border-radius: 3px;
+}
+
+.choice {
+    font-size: 11px;
+    color: #63786a;
+    font-weight: bold;
+    height: 20px;
+}
+.new {
+    font-size: 11px;
+    height: 20px;
+    margin: 3px 0;
+}
